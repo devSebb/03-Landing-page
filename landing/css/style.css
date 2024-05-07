@@ -1,0 +1,79 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0 auto;
+  font-family: Open Sans;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+h1 {
+  font-family: "Zilla Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40pt;
+  text-align: center;
+  text-shadow: 3px 4px 8px rgba(147, 125, 50, 0.8);
+}
+
+h2{
+  font-family: "Zilla Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22pt;
+  text-align: center;
+}
+
+h3{
+  font-family: "Zilla Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14pt;
+  text-align:center;
+}
+
+.hero {
+width: 100%;
+height: 600px;
+background-image: url("http://source.unsplash.com/black-and-white-abstract-painting-eDx3m572SBw");
+background-size: cover;
+background-position: center;
+box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+.hero-container{
+width: 500px;
+margin: 0 auto;
+padding-top: 180px;
+/* display: flex;
+flex-direction: column; */
+}
+
+.hero-container h1{
+  font-family: "Monoton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 58pt;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.hero-container h2{
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25pt;
+  text-align: left;
+  color: white;
+  margin: 0
+}
